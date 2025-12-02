@@ -198,7 +198,7 @@ sealed class Screen(val route: String)
 
 ⚙️ How to Build & Run
 1. Clone the repository
-git clone https://github.com/GauravChandra-123/portfolio-builder-app.git
+git clone https://github.com/GauravChandra-123/Portfolio_Builder_App.git
 
 2. Open in Android Studio
 3. Enable:
