@@ -107,43 +107,45 @@ Uses automatic line wrapping
 Multi-page support
 
 🧩 App Structure
+
 📦 com.example.bizzcardapp
 │
-├── 📂 data.datastore
-│     └── 📄 PortfolioDataStore.kt
+├─ 📂 data.datastore
+│   └─ 📄 PortfolioDataStore.kt
 │
-├── 📂 model
-│     ├── 📄 PortfolioItem.kt
-│     └── 📄 UserProfile.kt
+├─ 📂 model
+│   ├─ 📄 PortfolioItem.kt
+│   └─ 📄 UserProfile.kt
 │
-├── 📂 repository
-│     └── 📄 PortfolioRepository.kt
+├─ 📂 repository
+│   └─ 📄 PortfolioRepository.kt
 │
-├── 📂 ui
-│     ├── 📂 profile
-│     │     ├── 📄 ProfileScreen.kt
-│     │     └── 📄 ProfileViewModel.kt
-│     │
-│     ├── 📂 projects
-│     │     ├── 📄 ProjectsScreen.kt
-│     │     └── 📄 ProjectsViewModel.kt
-│     │
-│     ├── 📂 portfolio
-│     │     ├── 📄 PortfolioScreen.kt
-│     │     └── 📄 PortfolioViewModel.kt
-│     │
-│     ├── 📂 components
-│     │     └── 📄 ImagePreview.kt
-│     │
-│     └── 📂 navigation
-│           └── 📄 Screen.kt
+├─ 📂 ui
+│   ├─ 📂 profile
+│   │   ├─ 📄 ProfileScreen.kt
+│   │   └─ 📄 ProfileViewModel.kt
+│   │
+│   ├─ 📂 projects
+│   │   ├─ 📄 ProjectsScreen.kt
+│   │   └─ 📄 ProjectsViewModel.kt
+│   │
+│   ├─ 📂 portfolio
+│   │   ├─ 📄 PortfolioScreen.kt
+│   │   └─ 📄 PortfolioViewModel.kt
+│   │
+│   ├─ 📂 components
+│   │   └─ 📄 ImagePreview.kt
+│   │
+│   └─ 📂 navigation
+│       └─ 📄 Screen.kt
 │
-├── 📂 theme
-│     ├── 📄 Color.kt
-│     ├── 📄 Theme.kt
-│     └── 📄 Typography.kt
+├─ 📂 theme
+│   ├─ 📄 Color.kt
+│   ├─ 📄 Theme.kt
+│   └─ 📄 Typography.kt
 │
-└── 📄 MainActivity.kt
+└─ 📄 MainActivity.kt
+
 
 
 🔄 How the App Works
